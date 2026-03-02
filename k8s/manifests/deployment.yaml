@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: go-web-app
   labels:
-    app: go-web-app
+    app: go-web-app 
 spec:
   replicas: 3
   selector:
